@@ -8,6 +8,7 @@
 void *mult(void *arg)
 {int x=0;
 int x=0;
+int x=0;int x=0;int x=0;
       int *data = (int *)arg;
       int k = 0, i = 0;
 
