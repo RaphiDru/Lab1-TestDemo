@@ -3,9 +3,7 @@
 #include <stdlib.h>
 // Each thread computes single element in the resultant matrix
 void *rank3TensorMultPThread(void *arg)
-{ int Y = 0;
-int xY = 0;
-int Y = 0;
+{ 
     int *data = (int *)arg;
     int k = 0, i = 0;
     int x = data[0];
