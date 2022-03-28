@@ -18,7 +18,7 @@ void *rank3TensorMultPThread(void *arg)
 
 int main()
 {
-    int N = 40;
+    int N = 30;
     srand(time(NULL));
     int matA3[N][N][N];
     int matB3[N][N][N];
