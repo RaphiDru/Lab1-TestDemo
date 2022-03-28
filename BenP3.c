@@ -6,7 +6,7 @@
 
 // Each thread computes single element in the resultant matrix
 void *mult(void *arg)
-{int x=60000;
+{int x=690;
       int *data = (int *)arg;
       int k = 0, i = 0;
 
